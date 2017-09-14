@@ -40,7 +40,11 @@ functionality to work, so on non-Windows host platforms, [Wine](https://www.wine
 later needs to be installed. On OS X, it is installable via [Homebrew](http://brew.sh/).
 
 ``` bash
-$ npm run build
+$ npm run bundle.mac
+```
+
+``` bash
+$ npm run bundle.windows
 ```
 
 You can also run electron-packager from the command line using the following basic form:
